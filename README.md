@@ -8,7 +8,7 @@ This Android application was developed as part of a Kotlin Mobile Development as
 - Detailed product view with image gallery
 - Shopping cart functionality with quantity control
 - Checkout screen for collecting customer details
-- Responsive UI with Material 3 theming and dark mode
+- Responsive UI
 - Full navigation architecture and app branding
 
 The app is designed to showcase both UI/UX best practices and modern Android development techniques using Jetpack Compose.
