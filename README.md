@@ -46,4 +46,4 @@ The app is designed to showcase both UI/UX best practices and modern Android dev
 
 1. Clone the project:
 ```bash
-https://github.com/HarlClark/Product-Catalog-App.git
+git clone https://github.com/HarlClark/Product-Catalog-App.git
