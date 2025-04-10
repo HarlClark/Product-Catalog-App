@@ -41,7 +41,36 @@ The app is designed to showcase both UI/UX best practices and modern Android dev
 - ViewModel + mutableState for state management
 
 ---
+## Project Structure
 
+## Project Structure
+
+app/
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/example/productcatalogapp/
+        │       ├── data/
+        │       │   ├── model/            # Product data model
+        │       │   └── cart/             # CartManager and CartItem
+        │       ├── presentation/
+        │       │   ├── productlist/      # ProductListScreen and ViewModel
+        │       │   ├── productdetail/    # ProductDetailScreen and ViewModel
+        │       │   ├── cart/             # CartScreen
+        │       │   └── checkout/         # BuyScreen (user details input)
+        │       ├── ui/
+        │       │   └── theme/
+        │       │       ├── AppTypography/ # Custom text style
+        │       │       ├── Color/         # Have color value
+        │       │       ├── Theme/         # Overall theme
+        │       │       └── Type/          
+        │       └── MainActivity.kt       # NavHost and entry point
+        └── res/
+            ├── drawable/                 # Icons, splash background
+            ├── mipmap/                   # App launcher icons
+            └── values/                   # themes.xml, colors.xml, strings.xml
+
+---
 ## How to Run
 
 1. Clone the project:
