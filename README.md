@@ -44,7 +44,7 @@ The app is designed to showcase both UI/UX best practices and modern Android dev
 ## Project Structure
 
 ## Project Structure
-
+```bash
 app/
 └── src/
     └── main/
@@ -69,10 +69,50 @@ app/
             ├── drawable/                 # Icons, splash background
             ├── mipmap/                   # App launcher icons
             └── values/                   # themes.xml, colors.xml, strings.xml
-
+```
 ---
 ## How to Run
+**1. Before running the app, make sure you have:**
+-Android Studio (Arctic Fox or later)
+-Android SDK (API level 33 or higher recommended)
+-Kotlin plugin installed (usually included by default)
+-An emulator configured or a physical Android device connected
 
-1. Clone the project:
+**2. Clone the project:**
 ```bash
 git clone https://github.com/HarlClark/Product-Catalog-App.git
+```
+Or you can extract ZIP and extract it.
+
+**3.  Open the Project in Android Studio**
+- Launch Android Studio
+- Click File > Open
+- Select the root folder of the project (where the build.gradle file is located)
+
+Android Studio will take a few seconds to index the project and download dependencies.
+
+**4. Sync Gradle**
+
+If prompted, click "Sync Now" or use:
+- File > Sync Project with Gradle Files
+
+This ensures all libraries (e.g. Compose, Coil) are properly fetched.
+
+**5. Run the App**
+
+Choose a device:
+- either connect your physical Android phone or launch an emulator
+- Click the green “Run” button ▶️ at the top of Android Studio
+- Select your target device and the app will launch
+
+**6. Explore the App**
+
+Once installed, you can:
+- Browse the product list
+- Click on a product to view details
+- Add items to the cart
+- Adjust quantity or remove from cart
+- Fill in your name, address, and phone in the Buy screen
+- Tap Checkout to complete the flow
+
+
